@@ -93,11 +93,8 @@ export default function App() {
         {/* Parallax Image Background */}
         <div className="absolute inset-0 z-0 overflow-hidden opacity-10">
             <img 
-              src="/Screenshot_20251217_180200.jpg" 
+              src="https://images.unsplash.com/photo-1511895426328-dc8714191300?auto=format&fit=crop&q=80&w=1200" 
               alt="Family Tribute"
-              onError={(e) => {
-                (e.target as HTMLImageElement).src = "https://images.unsplash.com/photo-1511895426328-dc8714191300?auto=format&fit=crop&q=80&w=1200";
-              }}
               className="w-full h-full object-cover scale-110"
               referrerPolicy="no-referrer"
             />
@@ -115,11 +112,8 @@ export default function App() {
           >
             <div className="absolute -top-4 -left-4 w-full h-full border border-gold translate-x-2 -translate-y-2 z-0" />
             <img 
-              src="/IMG_20220102_204802.jpg" 
+              src="https://images.unsplash.com/photo-1594132410311-64906963c63c?auto=format&fit=crop&q=80&w=800" 
               alt="Mom"
-              onError={(e) => {
-                (e.target as HTMLImageElement).src = "https://images.unsplash.com/photo-1594132410311-64906963c63c?auto=format&fit=crop&q=80&w=800";
-              }}
               className="relative z-10 w-full h-auto grayscale hover:grayscale-0 transition-all duration-700 aspect-[3/4] object-cover"
               referrerPolicy="no-referrer"
             />
@@ -168,11 +162,8 @@ export default function App() {
           >
              <div className="absolute -bottom-4 -right-4 w-full h-full border border-gold translate-x-2 -translate-y-2 z-0" />
             <img 
-              src="/IMG_20200203_230422.jpg" 
+              src="https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?auto=format&fit=crop&q=80&w=800" 
               alt="Dad"
-              onError={(e) => {
-                (e.target as HTMLImageElement).src = "https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?auto=format&fit=crop&q=80&w=800";
-              }}
               className="relative z-10 w-full h-auto grayscale hover:grayscale-0 transition-all duration-700 aspect-[3/4] object-cover"
               referrerPolicy="no-referrer"
             />
@@ -196,11 +187,8 @@ export default function App() {
             className="max-w-2xl mx-auto rounded-3xl overflow-hidden shadow-2xl border-4 border-white"
           >
             <img 
-              src="/FB_IMG_1767514274526.jpg" 
+              src="https://images.unsplash.com/photo-1590846406792-0adc7f938f1d?auto=format&fit=crop&q=80&w=800" 
               alt="Family Together" 
-              onError={(e) => {
-                (e.target as HTMLImageElement).src = "https://images.unsplash.com/photo-1590846406792-0adc7f938f1d?auto=format&fit=crop&q=80&w=800";
-              }}
               className="w-full h-auto grayscale hover:grayscale-0 transition-all duration-1000"
               referrerPolicy="no-referrer"
             />
